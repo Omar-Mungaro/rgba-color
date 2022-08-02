@@ -1,0 +1,90 @@
+
+		* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				font-family: "Arial";
+		}
+		
+		body {
+				font-family: "Arial";
+
+		}
+		
+		label {
+				margin: 10px;
+				
+		}
+		
+		text {
+				margin: 10px;
+		}
+	
+		.color {
+				margin: 1px;
+		}
+		
+		.color-container {
+				display: flex;
+				justify-content: center;
+				position: relative;
+				margin-top: 100px;
+				
+				padding: 8px auto;
+				top: 50pc;
+				left: 50pc;
+				transform: translate(-50pc, -50pc);
+				background: rgba(255, 228, 239, 0.6);
+				box-shadow: 5px 5px 10px white inset, -5px -5px 10px white inset, 5px 5px 10px white inset;
+				border-radius: 0;
+				width: 350px;
+				font-family: "Arial"
+		}
+		
+		.rgb-div {
+				background: rgba(255, 228, 239, 0.6);
+				box-shadow: 5px 5px 10px white inset, -5px -5px 10px white inset, 5px 5px 10px white inset;
+				
+				width: 350px;
+				font-family: "Arial";
+				height: 100px;
+				display: flex;
+				justify-content: center;
+		}
+		
+		.code {
+				width: 30px;
+				text-align: center;
+				align-items: center;
+		}
+		
+		.color, .color-display {
+				width: 50px;
+				height: 20px
+		}
+		
+		.color-name, .range-container, .color-code, .color-display {
+				margin: 8px 8px;
+		}
+		
+		#r__color {
+				background-color: red;
+		}
+		
+		#g__color {
+				background-color: green;
+		}
+		
+		#b__color {
+				background-color: blue;
+		}
+		
+		#rgb__value {
+				border-style: none;
+				text-align: center;
+		}
+		
+		.alpha-container {
+				margin-top: 80px;
+				
+		}
