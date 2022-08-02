@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta content="author" name="omar mung'aro">
+		<link rel="stylesheet" href="/style.css">
+		
+		<title>RGBA COLOR</title>
+</head>
+<body onload="showColor()">
+		
+		
+		<div class="color-container">
+			
+			
+				<div class="color-name">
+						<label for="r__range">RED</label><br>
+						<label for="g__range">GREEN</label><br>
+						<label for="b__range">BLUE</label><br>
+						<label for="a__range">OPACITY</label>
+				</div>
+				
+				<div class="range-container">
+						<input type="range" id="r__range" min="0" max="255" oninput="showColor()"><br>
+						<input type="range" id="g__range" min="0" max="255" oninput="showColor()"><br>
+						<input type="range" id="b__range" min="0" max="255" oninput="showColor()"><br>
+						<input type="range" id="a__range" min="0" max="10" oninput="showColor()">
+				</div>
+				
+				<div class="color-code">
+						<input type="text" class="code" id="r__code" disabled="disabled"><br>
+						<input type="text" class="code" id="g__code" disabled="disabled"><br>
+						<input type="text" class="code" id="b__code" disabled="disabled"><br>
+						<input type="text" id="a__code" class="code" disabled="disabled">
+				</div>
+				
+				<div class="color-display">
+						<div class="color" id="r__color"></div>
+						<div class="color" id="g__color"></div>
+						<div class="color" id="b__color"></div>
+				</div>
+				
+		</div>
+		<div class="rgb-div">
+				<input type="text" id="rgb__value" disabled="disabled">
+				
+		</div>
+		
+		<script type="text/javascript" src="main.js"> </script>
+</body>
+</html>
